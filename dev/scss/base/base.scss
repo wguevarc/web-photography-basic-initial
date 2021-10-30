@@ -6,7 +6,7 @@ body{
     
 
     @include laptop{
-    background-color: red;
+    //background-color: red;
     display: grid;
     grid-template-columns:  15% 85%;
     grid-template-rows: 60px 1fr;
