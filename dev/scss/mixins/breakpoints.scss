@@ -4,24 +4,24 @@ $laptop:1024px;
 $desktop:1400px;
 
 @mixin mobile {
-    @media screen and (max-width:$mobile){
+    @media screen and (min-width:$mobile){
         @content;
     }        
 }
 
 @mixin table {
-    @media screen and (max-width:$table){
+    @media screen and (min-width:$table){
         @content;
     }        
 }
 
 @mixin laptop {
-    @media screen and (max-width:$laptop){
+    @media screen and (min-width:$laptop){
         @content;
     }        
 }
 @mixin desktop {
-    @media screen and (max-width:$desktop){
+    @media screen and (min-width:$desktop){
         @content;
     }        
 }

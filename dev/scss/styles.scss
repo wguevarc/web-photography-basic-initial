@@ -1,9 +1,10 @@
-@import 'mixins/breakpoints.scss';
-@import 'base/normalize.scss';
-@import 'base/base.scss';
+@import 'mixins/breakpoints';
+@import 'base/normalize';
+@import 'base/base';
 
 
 
-@import 'blocks/header.scss';
-@import 'blocks/aside.scss';
-@import 'blocks/main.scss';
+@import 'blocks/header';
+@import 'blocks/topbar';
+@import 'blocks/aside';
+@import 'blocks/main';
