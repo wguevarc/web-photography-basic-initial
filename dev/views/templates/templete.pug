@@ -1,3 +1,5 @@
+include ../config/config
+
 doctype html
 html(lang="en")
     head
@@ -8,20 +10,21 @@ html(lang="en")
         link(rel="stylesheet", href="https://use.fontawesome.com/releases/v5.4.2/css/all.css")
         title Document
     body 
-    header#header.header
-        a(href="/").logo
-            img(src="../assets/img/logo.png", alt="web logo") 
-        .topbar
-            .topbar__icon  
-                i.fa.fa-user 
-                span Log in
-            .topbar__icon
-                i.fa.fa-user-plus 
-                span Registro
-            .toggle-menu   
-                 #toggle-menu.toggle-menu__icon 
-                    .first-bar 
-                    .secund-bar 
-                    .third-bar
-    aside#sidebar.sidebar
-    main.main 
+        header#header.header
+            a(href="/").logo
+                img(src="../assets/img/logo.png", alt="web logo") 
+            .topbar
+                .topbar__icon  
+                    i.fa.fa-user 
+                    span Log in
+                .topbar__icon
+                    i.fa.fa-user-plus 
+                    span Registro
+                .toggle-menu   
+                    #toggle-menu.toggle-menu__icon 
+                        .first-bar 
+                        .secund-bar 
+                        .third-bar
+        #sidebar.sidebar
+            block menu
+        main.main 
