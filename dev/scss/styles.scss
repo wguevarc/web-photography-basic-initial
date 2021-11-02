@@ -1,12 +1,17 @@
+//Configuracion guias de estilo
+@import 'config/colors';
+@import 'config/fonts';
+
+//mixins
 @import 'mixins/breakpoints';
 @import 'mixins/reset-list';
 
-
+//estilos base
 @import 'base/normalize';
 @import 'base/base';
 
 
-
+//blocks
 @import 'blocks/header';
 @import 'blocks/toggle-menu';
 @import 'blocks/menu';
