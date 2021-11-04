@@ -1,0 +1,15 @@
+//contenedor modal de toda la venta
+.lighbox#register-modal
+    //formulario de registro
+    form#register-form.form
+        .form_field     
+            label(for="register-email").form__label Email
+            input#register-email(type="email" name = "email").form__input
+        .form_field     
+            label(for="register-password").form__label Password
+            input#register-password(type="password" name = "password").form__input
+        .form_field     
+            label(for="register-password-2").form__label Repeat  Password
+            input#register-password-2(type="password" name = "password-2").form__input
+        .form__field
+            input(type= "submit" name = "button" value = "Send").form__submit
