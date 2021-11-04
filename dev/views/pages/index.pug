@@ -1,3 +1,19 @@
 extends ../templates/templete
 block menu 
     include ../includes/main-menu
+block title
+    h1.title Home
+block main 
+    #gallery.gallery 
+        .gallery__item 
+            img(src="assets/img/gallery/1.jpg", alt= "imagen de galeria1")
+        .gallery__item 
+            img(src="assets/img/gallery/2.jpg", alt= "imagen de galeria2")
+        .gallery__item 
+            img(src="assets/img/gallery/2.jpg", alt= "imagen de galeria3")
+        .gallery__item 
+            img(src="assets/img/gallery/4.jpg", alt= "imagen de galeria4")
+        .gallery__item      
+            img(src="assets/img/gallery/5.jpg", alt= "imagen de galeria5")
+block script 
+    script(src="/js/macy.js") 

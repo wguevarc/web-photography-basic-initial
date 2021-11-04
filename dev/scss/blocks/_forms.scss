@@ -40,7 +40,7 @@
         transition: transform 0.2s;
 
         &:active,
-        $:focus{
+        &:focus{
             transform: scale(.9);
         }
 
