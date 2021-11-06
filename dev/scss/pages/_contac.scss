@@ -1,11 +1,15 @@
 .contact{
     background-color: $dark-color;
     position: relative;
-    height: 120vh;
+    height: 100vh;
     text-align: center;
 
     @include laptop{
         height: calc(100vh - 250px);
+        &__img-map{
+            display: none;
+
+        }
        
 
     }
@@ -19,14 +23,18 @@
             margin: 0 auto 2rem;
         }
         & iframe{
-            width: 320px;
-            height: 300px;
-            margin-top: 2rem;
+            display: none;
             @include laptop{
                 width: 600px;
+                height: 300px;
+                margin: 2rem auto; 
+                display: block;
             }
 
         }
     }
- 
+  &__img-map{
+      width: 320px;
+      margin-top: 2rem;
+  }
 }
